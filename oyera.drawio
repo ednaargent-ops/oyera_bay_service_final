@@ -1,0 +1,162 @@
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="Page-1" id="miMT-g7gh4zwu73YLvO5">
+    <mxGraphModel dx="1019" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="P8-MJTPMXYrhHO0HZ3Xz-2" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;garage client&lt;/h1&gt;&lt;p&gt;- to book an appointment usinga pop up form&lt;/p&gt;&lt;p&gt;- see our services&lt;/p&gt;&lt;p&gt;- should be able to get whatsapp messages on the progress of their car&lt;/p&gt;&lt;p&gt;- see an about&amp;nbsp;&lt;/p&gt;&lt;p&gt;- see contact info&lt;/p&gt;" vertex="1">
+          <mxGeometry height="200" width="380" x="20" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="P8-MJTPMXYrhHO0HZ3Xz-5" edge="1" parent="1" source="P8-MJTPMXYrhHO0HZ3Xz-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P8-MJTPMXYrhHO0HZ3Xz-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P8-MJTPMXYrhHO0HZ3Xz-3" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="url / page (input)" vertex="1">
+          <mxGeometry height="80" width="80" x="70" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="P8-MJTPMXYrhHO0HZ3Xz-7" edge="1" parent="1" source="P8-MJTPMXYrhHO0HZ3Xz-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P8-MJTPMXYrhHO0HZ3Xz-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P8-MJTPMXYrhHO0HZ3Xz-4" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="views/ process" vertex="1">
+          <mxGeometry height="80" width="80" x="370" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="P8-MJTPMXYrhHO0HZ3Xz-6" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="output" vertex="1">
+          <mxGeometry height="80" width="80" x="660" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="P8-MJTPMXYrhHO0HZ3Xz-11" edge="1" parent="1" source="P8-MJTPMXYrhHO0HZ3Xz-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P8-MJTPMXYrhHO0HZ3Xz-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P8-MJTPMXYrhHO0HZ3Xz-9" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="info in a form booking&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="80" x="70" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="P8-MJTPMXYrhHO0HZ3Xz-13" edge="1" parent="1" source="P8-MJTPMXYrhHO0HZ3Xz-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P8-MJTPMXYrhHO0HZ3Xz-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P8-MJTPMXYrhHO0HZ3Xz-10" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="a function connecting the number in the form to our whatsapp number to give them progress" vertex="1">
+          <mxGeometry height="120" width="120" x="365" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="P8-MJTPMXYrhHO0HZ3Xz-12" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="whatsapp message. telling them about the progress" vertex="1">
+          <mxGeometry height="120" width="120" x="650" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="P8-MJTPMXYrhHO0HZ3Xz-15" edge="1" parent="1" source="P8-MJTPMXYrhHO0HZ3Xz-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P8-MJTPMXYrhHO0HZ3Xz-14" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="510" as="sourcePoint" />
+            <mxPoint x="365" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P8-MJTPMXYrhHO0HZ3Xz-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="post request" vertex="1">
+          <mxGeometry height="30" width="90" x="230" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="P8-MJTPMXYrhHO0HZ3Xz-18" edge="1" parent="1" source="P8-MJTPMXYrhHO0HZ3Xz-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P8-MJTPMXYrhHO0HZ3Xz-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P8-MJTPMXYrhHO0HZ3Xz-16" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="seeing services and about&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="80" x="70" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="P8-MJTPMXYrhHO0HZ3Xz-22" edge="1" parent="1" source="P8-MJTPMXYrhHO0HZ3Xz-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P8-MJTPMXYrhHO0HZ3Xz-21" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P8-MJTPMXYrhHO0HZ3Xz-17" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="a function allowing the viewing of the page" vertex="1">
+          <mxGeometry height="110" width="110" x="370" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="P8-MJTPMXYrhHO0HZ3Xz-20" edge="1" parent="1" source="P8-MJTPMXYrhHO0HZ3Xz-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P8-MJTPMXYrhHO0HZ3Xz-19" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="660" as="sourcePoint" />
+            <mxPoint x="370" y="675" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P8-MJTPMXYrhHO0HZ3Xz-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="get request" vertex="1">
+          <mxGeometry height="30" width="90" x="210" y="645" as="geometry" />
+        </mxCell>
+        <mxCell id="P8-MJTPMXYrhHO0HZ3Xz-21" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="the landing page with all the information" vertex="1">
+          <mxGeometry height="110" width="110" x="660" y="620" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Copy of Page-1" id="W_pTRdDLCcsjDj7yr8Lk">
+    <mxGraphModel dx="2209" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="tCDepYCBB8QFqpMD6gjd-0" />
+        <mxCell id="tCDepYCBB8QFqpMD6gjd-1" parent="tCDepYCBB8QFqpMD6gjd-0" />
+        <mxCell id="tCDepYCBB8QFqpMD6gjd-2" parent="tCDepYCBB8QFqpMD6gjd-1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;garage client&lt;/h1&gt;&lt;p&gt;- to book an appointment usinga pop up form&lt;/p&gt;&lt;p&gt;- see our services&lt;/p&gt;&lt;p&gt;- should be able to get whatsapp messages on the progress of their car&lt;/p&gt;&lt;p&gt;- see an about&amp;nbsp;&lt;/p&gt;&lt;p&gt;- see contact info&lt;/p&gt;" vertex="1">
+          <mxGeometry height="200" width="380" x="20" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="tCDepYCBB8QFqpMD6gjd-3" edge="1" parent="tCDepYCBB8QFqpMD6gjd-1" source="tCDepYCBB8QFqpMD6gjd-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tCDepYCBB8QFqpMD6gjd-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tCDepYCBB8QFqpMD6gjd-4" parent="tCDepYCBB8QFqpMD6gjd-1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="url / page (input)" vertex="1">
+          <mxGeometry height="80" width="80" x="70" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="tCDepYCBB8QFqpMD6gjd-5" edge="1" parent="tCDepYCBB8QFqpMD6gjd-1" source="tCDepYCBB8QFqpMD6gjd-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tCDepYCBB8QFqpMD6gjd-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tCDepYCBB8QFqpMD6gjd-6" parent="tCDepYCBB8QFqpMD6gjd-1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="views/ process" vertex="1">
+          <mxGeometry height="80" width="80" x="370" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="tCDepYCBB8QFqpMD6gjd-7" parent="tCDepYCBB8QFqpMD6gjd-1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="output" vertex="1">
+          <mxGeometry height="80" width="80" x="660" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="tCDepYCBB8QFqpMD6gjd-8" edge="1" parent="tCDepYCBB8QFqpMD6gjd-1" source="tCDepYCBB8QFqpMD6gjd-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tCDepYCBB8QFqpMD6gjd-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tCDepYCBB8QFqpMD6gjd-9" parent="tCDepYCBB8QFqpMD6gjd-1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="info in a form booking&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="80" x="70" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="tCDepYCBB8QFqpMD6gjd-10" edge="1" parent="tCDepYCBB8QFqpMD6gjd-1" source="tCDepYCBB8QFqpMD6gjd-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tCDepYCBB8QFqpMD6gjd-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tCDepYCBB8QFqpMD6gjd-11" parent="tCDepYCBB8QFqpMD6gjd-1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="a function connecting the number in the form to our whatsapp number to give them progress" vertex="1">
+          <mxGeometry height="120" width="120" x="365" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="tCDepYCBB8QFqpMD6gjd-12" parent="tCDepYCBB8QFqpMD6gjd-1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="whatsapp message. telling them about the progress" vertex="1">
+          <mxGeometry height="120" width="120" x="650" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="tCDepYCBB8QFqpMD6gjd-13" edge="1" parent="tCDepYCBB8QFqpMD6gjd-1" source="tCDepYCBB8QFqpMD6gjd-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tCDepYCBB8QFqpMD6gjd-14" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="510" as="sourcePoint" />
+            <mxPoint x="365" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tCDepYCBB8QFqpMD6gjd-14" parent="tCDepYCBB8QFqpMD6gjd-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="post request" vertex="1">
+          <mxGeometry height="30" width="90" x="230" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="tCDepYCBB8QFqpMD6gjd-15" edge="1" parent="tCDepYCBB8QFqpMD6gjd-1" source="tCDepYCBB8QFqpMD6gjd-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tCDepYCBB8QFqpMD6gjd-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tCDepYCBB8QFqpMD6gjd-16" parent="tCDepYCBB8QFqpMD6gjd-1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="seeing services and about&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="80" x="70" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="tCDepYCBB8QFqpMD6gjd-17" edge="1" parent="tCDepYCBB8QFqpMD6gjd-1" source="tCDepYCBB8QFqpMD6gjd-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tCDepYCBB8QFqpMD6gjd-21" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tCDepYCBB8QFqpMD6gjd-18" parent="tCDepYCBB8QFqpMD6gjd-1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="a function allowing the viewing of the page" vertex="1">
+          <mxGeometry height="110" width="110" x="370" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="tCDepYCBB8QFqpMD6gjd-19" edge="1" parent="tCDepYCBB8QFqpMD6gjd-1" source="tCDepYCBB8QFqpMD6gjd-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tCDepYCBB8QFqpMD6gjd-20" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="660" as="sourcePoint" />
+            <mxPoint x="370" y="675" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tCDepYCBB8QFqpMD6gjd-20" parent="tCDepYCBB8QFqpMD6gjd-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="get request" vertex="1">
+          <mxGeometry height="30" width="90" x="210" y="645" as="geometry" />
+        </mxCell>
+        <mxCell id="tCDepYCBB8QFqpMD6gjd-21" parent="tCDepYCBB8QFqpMD6gjd-1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="the landing page with all the information" vertex="1">
+          <mxGeometry height="110" width="110" x="660" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="8e-Qp57A9zMvTpPfLtlR-0" parent="tCDepYCBB8QFqpMD6gjd-1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="output" vertex="1">
+          <mxGeometry height="80" width="80" x="1010" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="8e-Qp57A9zMvTpPfLtlR-2" parent="tCDepYCBB8QFqpMD6gjd-1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Senior Technician&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal;&quot;&gt;- to book an appointment usinga pop up form&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;- see our services&lt;/p&gt;&lt;p&gt;- should be able to get whatsapp messages on the progress of their car&lt;/p&gt;&lt;p&gt;- see an about&amp;nbsp;&lt;/p&gt;&lt;p&gt;- see contact info&lt;/p&gt;" vertex="1">
+          <mxGeometry height="200" width="380" x="880" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8e-Qp57A9zMvTpPfLtlR-3" parent="tCDepYCBB8QFqpMD6gjd-1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="url / page (input)" vertex="1">
+          <mxGeometry height="80" width="80" x="-150" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="8e-Qp57A9zMvTpPfLtlR-5" parent="tCDepYCBB8QFqpMD6gjd-1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;ui&lt;/h1&gt;&lt;p&gt;- midnight blue and vanilla cream&lt;/p&gt;&lt;p&gt;- icons&lt;/p&gt;&lt;p&gt;- for the senior technician and junior technician should have a greeting message&lt;/p&gt;&lt;p&gt;- profile picture icon&amp;nbsp; (functional if i have time)&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;- see contact info&lt;/p&gt;" vertex="1">
+          <mxGeometry height="460" width="610" x="-830" y="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
